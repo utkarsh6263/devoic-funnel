@@ -1,0 +1,150 @@
+
+.beni{
+
+    background: black;
+    padding:50px;
+}
+.head p{
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffff;
+    margin-top: 3rem;
+}
+ span.text{
+    background: linear-gradient(3deg,#00C6FF,#0072FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.benefits{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   margin: 1rem 2rem;
+
+}
+
+.benefit{
+    height:20rem;
+    width: 35rem;
+    margin: 2rem 2rem;
+    background-color: black;
+    border: 0.1rem solid #ffff;
+     border-radius: 2rem; 
+    box-sizing: border-box;
+    padding: 1rem;
+    
+}
+.benefit:hover{
+    transform: scale(1.03);
+    box-shadow: 0.8rem 0.8rem white ;
+    transition: 1sec;
+    border: 3px solid transparent;
+    border-radius: 2rem;
+    filter: drop-shadow(0 0 0.3em #1cd0ff);
+    transition: 0.4s; 
+
+}
+
+
+
+ .benefit h2{
+    margin-left: 1.9rem;
+    width: 80%;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #ffff;
+}
+.benefit p{
+    margin-left: 1.9rem;
+    width: 80%;
+    font-size: 1.6rem;
+    color: #b5b3b3;
+    line-height: 150%;
+}
+.benifit:hover{
+   bottom : 0.6em;
+    right: 0.6em;
+    transition: 1s;
+    box-shadow: 2rem 2rem #ffff;
+}
+
+
+
+@media(max-width:700px) and (min-width:380px) {
+    .head p{
+
+        text-align: center;
+        font-size: 1.8rem; 
+        width: 100%;
+    }
+     .benefits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    
+     }  
+    
+    .benefit{
+        height:18rem;
+        width: 19.5rem;
+        margin: auto;  
+        margin-top: 2rem; 
+    } 
+    .benefit h2{
+        width: 70%;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .benefit p{
+        margin-left: 1.9rem;
+        width: 84%;
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:380px) {
+    .head p{
+
+        text-align: center;
+        font-size: 1.8rem; 
+        width: 100%;
+    }
+     .benefits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    
+     }  
+    
+    .benefit{
+        height:18rem;
+        width: 13rem;
+        /* margin: auto;   */
+        margin-top: 2rem; 
+        margin-right: 2rem;
+    } 
+    .benefit h2{
+        width: 70%;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .benefit p{
+        margin-left: 1.9rem;
+        width: 84%;
+        font-size: 0.9rem;
+    }
+}
+
+

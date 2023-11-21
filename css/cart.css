@@ -1,0 +1,144 @@
+*{
+/* background-color: rgb(198, 187, 187); */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.black {
+    background-color: #1c1c1c ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.befone span{
+    background: linear-gradient(3deg,#00C6FF,#0072FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.befone{
+    margin: 4rem 8rem;
+    width: 60vw;
+    height: 40vh;
+    background-color: #ffff;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}   
+.befone img{
+    width: 60vw;
+    height: 40vh;
+    opacity: 1;
+    border-radius: 2rem 2rem 0 0 ;
+}
+.befone h1{
+    text-align: center;
+    position: relative;
+    bottom: 21rem;
+    color: #ffff;
+    font-size: 2rem;
+   
+}
+.befone h2{
+font-size: 1.4rem;
+position: relative;
+bottom: 5rem;
+left: 2rem;
+
+}
+.befone p{
+    text-align: center;
+    color: #ffff;
+    font-size: 1.4rem;
+    position: relative;
+    bottom:20rem;
+}
+.befone a{
+    position: absolute;
+    top: 73%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 4.3rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #ffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5,#ffeb3b,#03a9f4);
+    background-size: 55rem;
+    border-radius: 3rem;
+}
+.befone a:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+@media(max-width:700px){
+    .befone{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 2rem;
+        align-items: center;
+        justify-content: center;
+        width: 20.8rem;
+        height: 33rem;
+    }
+    .befone img{
+        margin: auto;
+       
+        width: 20.8rem;
+        height: 22rem;
+        
+    }
+    .befone h1{
+        position: relative;
+        text-align: center;
+        max-width: 94%;
+        font-size: 1.6rem;
+       
+    }
+    .befone p{
+     text-align: center;
+     max-width: 90%;
+     font-size: 1.2rem;
+
+    
+    }
+    .befone h2{
+        font-size: 1.1rem;
+        position: relative;
+        bottom:13rem;
+        left: 1%;
+        text-align: center;
+        width: 87%;
+        
+        }
+        .befone a{
+            position: relative;
+            top: -34%;
+            left: 32%;
+            width: 13rem;
+            height: 3.7rem;
+            text-align: center;
+            font-size: 1.6rem;
+            
+        }
+}
